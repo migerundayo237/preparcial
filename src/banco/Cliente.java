@@ -77,4 +77,11 @@ public class Cliente {
 	public void setNumDoc(String numDoc) {
 		this.numDoc = numDoc;
 	}
+
+	@Override
+	public String toString() {
+		return "Cliente [nombre=" + nombre + ", apellidos=" + apellidos + ", fechaNacimiento=" + fechaNacimiento
+				+ ", direccion=" + direccion + ", telefono=" + telefono + ", tipoDoc=" + tipoDoc + ", numDoc=" + numDoc
+				+ "]";
+	}
 }

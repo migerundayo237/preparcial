@@ -24,4 +24,10 @@ public class Transaccion {
 	public double getValorImplicado() {
 		return valorImplicado;
 	}
+
+	@Override
+	public String toString() {
+		return "Transaccion [codigo=" + codigo + ", fechaTransaccion=" + fechaTransaccion + ", valorImplicado="
+				+ valorImplicado + "]";
+	}
 }
